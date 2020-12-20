@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <div class="title">
+        <h2>How Much Do You Know about <br>U.S. National Parks?</h2>
+    </div>
+    <div class="quiz-container">
+        <h4 id="question" >Question Text</h4>
+        <ul class="answers">
+
+            <li><input type="radio" class="answer" id="a"
+                name="answer" value="a">
+
+                <label for="a" id="a_answer">Answer</label>
+                </li>
+
+                    
+                    <li><input type="radio" class="answer" id="b"
+                        name="answer" value="b">
+        
+                        <label for="b" id="b_answer">Answer</label>
+                    </li>
+
+                        
+                        <li><input type="radio" class="answer" id="c"
+                            name="answer" value="c">
+            
+                            <label for="c" id="c_answer">Answer</label>
+                        </li>
+
+                            <li><input type="radio" class="answer" id="d"
+                                name="answer" value="d">
+                
+                                <label for="d" id="d_answer">Answer</label>
+                            </li>
+         </ul>
+
+         <button class="btn" id="submit" onclick="submitAnswer()">Submit Answer</button>
+
+         <div id="demo"></div>
+         <button class="btn-next" id="next" onclick="nextQuiz()">Next</button>
+
+
+    </div>
+    
+</body>
+</html>
