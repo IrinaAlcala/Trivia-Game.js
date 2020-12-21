@@ -1,85 +1,72 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
-
-body {
-    background-color: lightgray;
-    font-family: poppins, sans-serif;
-
+body{
+	font-family: poppins, sans-serif;
+	background-color: #eee;
 }
-
 .title {
-    color: darkgreen;
-    text-align: center;
-    font-size: 25px;
-    text-shadow: 2px 2px 2px;
-    margin: 30px auto;
+	color: #060;
+	margin: 20px auto;
+	text-align: center;
+	text-shadow: 3px 3px 3px #aaa;
 }
-
 .quiz-container {
-    width: 500px;
-    max-height: 100%;
-    max-width: 90vw;
-    background-color: white;
-    margin: 0px auto;
-    border: 2px solid black;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px;
+	width: 400px;
+	max-height: 100%;
+	max-width: 90vw;
+	background-color: #eee;
+	margin: 0px auto;
+	border: 1px solid #333;
+	border-radius: 6px;
+	box-shadow: 3px 3px 6px #444;
+	
 }
-
 .quiz-container h4 {
-    margin: 1rem;
-    font-size: 20px;
+	margin: 1rem;
+	font-size: 1rem;
 }
-
 ul {
-    list-style: none;
-    font-family: inherit;
-    font-size: 1rem;
-    margin-bottom: 20px;
-
+	list-style-type: none;
+	font-family: inherit;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	
 }
-
 li {
-    padding: 10px 30px;
-    margin: 5px auto;
-    font-size: 18px;
+	padding: 2px 30px;
+	margin: 5px auto;
 }
-
 li, label {
-    cursor: pointer;
+	cursor: pointer;
 }
-
 .btn, .btn-next {
-    display: block;
-    cursor: pointer;
-
-}
-
+	display: block;
+	cursor: pointer;
+	}
 .btn {
-    border: 2px solid black;
-    border-radius: 3px;
-    font-size: 18px;
-    background-image: radial-gradient(120deg, #eee, #aaa);
-    width: 50%;
-    margin: 5px auto;
-    padding: 5px;
-    box-shadow: 1ps 1px 1px;
+	border: 1px solid #222;
+	border-radius: 3px;
+	font-size: 1rem;
+	background-image: radial-gradient(120deg, #eee, #aaa);
+	width: 50%;
+	margin: 5px auto;
+	padding: 5px;
+	box-shadow: 1px 1px 3px #999;
 }
-
 .btn-next {
-    width: 100%;
-    color: white;
-    font-size: 25px;
-    background-image: linear-gradient(to top, #512e72 0%, #24090c 100%);
-    margin-top: 13px;
-    padding: 15px;
+	width: 100%;
+	color: #fff;
+	font-size: 1.5rem;
+	background-image: linear-gradient(to top, #512e72 0%, #24090c 100%);
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 0 0 6px 6px;
 }
-
 #demo {
-    font-size: 18px;
-    text-align: center;
-    height: 30px;
+	font-size: 1.2rem;
+	text-align: center;
+	height: 30px;
 }
